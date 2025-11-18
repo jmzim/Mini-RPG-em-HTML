@@ -1,0 +1,51 @@
+body {
+    background-color: #16161a;
+    color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#game-container {
+    background-color: #23233b;
+    margin: auto;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #2c2c42;
+}
+
+h1 {
+    text-align: center;
+    color: #fec260;
+    margin-bottom: 30px;
+}
+
+#story {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #393956;
+    border-radius: 6px;
+}
+
+#options button {
+    background: #fec260;
+    color: #23233b;
+    font-weight: bold;
+    margin: 7px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#options button:hover {
+    background: #e6a841;
+}
+
+#player-stats, #enemy-stats, #inventory {
+    margin-bottom: 14px;
+    padding: 8px;
+    background: #23233b;
+    border-radius: 6px;
+    font-size: 15px;
+}
